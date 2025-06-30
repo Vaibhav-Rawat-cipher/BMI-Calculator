@@ -1,0 +1,212 @@
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.BackgrounOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/bmiCal/imagesUsed/MaiSakurajima2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1; /* reduce image opacity */
+  z-index: -1;  /* send behind text */
+}
+
+h1{
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #43bacf;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h2{
+   
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #43bacf;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ParaGraph1 {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(42, 74, 115, 0.5);
+    color: #146270;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ParaGraph2{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(42, 74, 115, 0.5);
+    color: #146270;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ParaGraph3{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(42, 74, 115, 0.5);
+    color: #146270;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ParaGraph4{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(42, 74, 115, 0.5);
+    color: #146270;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ParaGraph5{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(42, 74, 115, 0.5);
+    color: #146270;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.INUPI {
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #43bacf;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#Height,
+#Weight {
+  width: 150px;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: 2px solid #43bacf;
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0faff;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+#Height:focus,
+#Weight:focus {
+  outline: none;
+  border-color: #2a99b7;
+  box-shadow: 0 0 5px rgba(67, 186, 207, 0.4);
+}
+
+.BUTTON {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#calculateBtn{
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #43bacf;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ReloadButton {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #ff4d4d;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.Result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #43bacf;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+.CategoryList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(42, 74, 115, 0.5);
+  color: #146270;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
