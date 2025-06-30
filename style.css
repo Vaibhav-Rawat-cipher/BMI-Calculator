@@ -10,7 +10,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/bmiCal/MaiSakurajima2.jpg');
+  background-image: url('/MaiSakurajima2.jpg');
   background-size: cover;
   background-position: center;
   opacity: 1; /* reduce image opacity */
